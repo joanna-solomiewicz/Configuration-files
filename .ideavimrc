@@ -1,0 +1,15 @@
+syntax on
+set number
+set hlsearch
+set incsearch
+
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
+map <Right> gt
+map <Left> gT
+
+map <C-C> :norm 0i//<CR>
+map <C-X> :norm 0xx<CR>
