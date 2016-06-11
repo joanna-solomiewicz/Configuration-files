@@ -13,3 +13,17 @@ map <Left> gT
 
 map <C-C> :norm 0i//<CR>
 map <C-X> :norm 0xx<CR>
+
+nmap J 5j
+nmap K 5k
+xmap J 5j
+xmap K 5k
+
+map <a-l> <c-w>l
+map <a-j> <c-w>j
+map <a-h> <c-w>h
+map <a-k> <c-w>k
+imap <a-l> <ESC><c-w>l
+imap <a-j> <ESC><c-w>j
+imap <a-h> <ESC><c-w>h
+imap <a-k> <ESC><c-w>k

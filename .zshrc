@@ -43,23 +43,19 @@ bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
 
 # Synatx highliting
-# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
-
-alias ptc='cd /home/joanna/Dropbox/Studia/PTC/'
-alias sop='cd /home/joanna/Dropbox/Studia/SOP2/'
-alias fiz='cd /home/joanna/Dropbox/Studia/Fizyka/'
-alias mp='cd /home/joanna/Dropbox/Studia/MP/'
-alias ok='cd /home/joanna/Dropbox/Studia/OK/'
-alias pa='cd /home/joanna/Dropbox/Studia/PA/'
-alias po='cd /home/joanna/Dropbox/Studia/PO/'
-alias ang='cd /home/joanna/Dropbox/Studia/ANG/'
-
-alias pro='cd /home/joanna/Dokumenty/Projekty/'
+alias pro='cd /home/joanna/Projekty/'
+alias ml='cd /home/joanna/Projekty/Milaletti/'
 
 alias xampp='sudo /opt/lampp/manager-linux-x64.run'
 
 alias u='yaourt -Syua --noconfirm'
 
-export CL_JDK="/usr/lib/jvm/java-7-openjdk"
+export CL_JDK=""
+
+
+NPM_PACKAGES="${HOME}/.npm-packages"
+
+PATH="$NPM_PACKAGES/bin:$PATH"
